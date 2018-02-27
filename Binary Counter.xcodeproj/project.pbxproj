@@ -15,6 +15,7 @@
 		E763BFAF2016D05900681A98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E763BFAD2016D05900681A98 /* LaunchScreen.storyboard */; };
 		E763BFBA2016D05900681A98 /* Binary_CounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E763BFB92016D05900681A98 /* Binary_CounterTests.swift */; };
 		E763BFC52016D05A00681A98 /* Binary_CounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E763BFC42016D05A00681A98 /* Binary_CounterUITests.swift */; };
+		E763BFD32016D54B00681A98 /* BinaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E763BFD22016D54B00681A98 /* BinaryCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		E763BFC02016D05A00681A98 /* Binary CounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Binary CounterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E763BFC42016D05A00681A98 /* Binary_CounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Binary_CounterUITests.swift; sourceTree = "<group>"; };
 		E763BFC62016D05A00681A98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E763BFD22016D54B00681A98 /* BinaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				E763BFA12016D05900681A98 /* AppDelegate.swift */,
+				E763BFD22016D54B00681A98 /* BinaryCell.swift */,
 				E763BFA32016D05900681A98 /* ViewController.swift */,
 				E763BFA52016D05900681A98 /* Main.storyboard */,
 				E763BFAB2016D05900681A98 /* Assets.xcassets */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E763BFD32016D54B00681A98 /* BinaryCell.swift in Sources */,
 				E763BFA42016D05900681A98 /* ViewController.swift in Sources */,
 				E763BFA22016D05900681A98 /* AppDelegate.swift in Sources */,
 				E763BFAA2016D05900681A98 /* Binary_Counter.xcdatamodeld in Sources */,
